@@ -1,0 +1,1832 @@
+/*Navbar*/
+
+.navbar {
+    background-color: var(--color-fondoprincipal);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding: 10px;
+    width: -webkit-fill-available;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 5px solid var(--color-destacado1);
+}
+
+.linksnavbar {
+  border-right: var(--color-tipografia2) 1px solid;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  height: -webkit-fill-available;
+  padding-top: 20px;
+}
+
+.linksnavbar a span{
+  line-height: 60px;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  min-width: 40px;
+  text-align: center;
+  transition: 0.5s;
+  margin-top: -17px;
+}
+
+.linksnavbar a span:hover {
+  transition: 0.5s;
+  font-size: 18px;
+  color: var(--color-destacado1);
+}
+
+.pictureandnamenavbar {
+  width: 550px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.pictureandnamenavbar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  border: var(--color-destacado1) 5px solid;
+}
+
+.ipsUserPhoto_kod {
+ background: var(--color-fondoprincipal); 
+}
+
+.introductiontochaos {
+  width: 410px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  font-family: MorrisRoman;
+}
+
+.introductiontochaos a {
+  text-decoration: none;
+  color: var(--color-tipografia2);
+}
+
+.introductiontochaos txt {
+  color: var(--color-tipografia2);
+}
+
+txt.introductiontext {
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px solid var(--color-destacado1);
+}
+
+txt.ussersnamenavbar {
+  text-align: right;
+  font-size: 16px;
+}
+
+/*--*/
+
+/*Header*/
+
+.headertitle {
+  margin: 200px;
+  width: 550px;
+  height: auto;
+  font-size: 80px;
+  text-align: center;
+  color: var(--color-destacado1);
+  font-family: Ringbearer;
+}
+
+.headertitle2 {
+  position: absolute;
+  z-index: -9;
+  top: 200px;
+  left: 200px;
+  width: 600px;
+  height: auto;
+  font-size: 90px;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+  font-family: Ringbearer;
+}
+
+/*--*/
+
+/*Titulo de categorias*/
+
+#titulosdecategorias h2{
+  width: 1025px;
+  height: 100px;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  border-left: solid 5px;
+  margin-bottom: 10px;
+  font-family: MorrisRoman;
+  font-size: 40px;
+  text-align: right;
+  line-height: 100px;
+  color: var(--color-destacado1);
+}
+
+/*--*/
+
+.simulolacolumnadesubforos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.basesubforo {
+  width: 1030px;
+  height: 300px;
+  padding: 10px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.subforoparteeditable {
+  width: 1030px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.sidescripcion {
+  width: 400px;
+  height: 210px;
+  padding: 20px;
+  background: var(--color-fondoprincipal);
+  overflow-y: auto;
+  font-family: Fondamento;
+  text-align: justify;
+  color: var(--color-tipografia2);
+}
+
+.siimagen {
+  width: 580px;
+  height: 250px; 
+  margin-left: 10px;
+}
+
+.silinks {
+  width: 570px;
+  height: 240px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 5px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.silinks:hover {
+  transition: 0.5s;
+  opacity: 1;  
+}
+
+.silinksbox {
+  height: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  font-family: Calibri;
+  text-transform: uppercase;
+  background: var(--color-fondoprincipal);
+  transition: 0.5s;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.silinksbox:hover {
+  transition: 0.5s;
+  background: var(--color-destacado1trans); 
+}
+
+.silinksbox a {
+  color: var(--color-tipografia2);
+  text-decoration: none;
+}
+
+.srolimagen {
+  width: 520px;
+  height: 250px; 
+}
+
+.srollinks {
+  width: 190px;
+  height: 250px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.srollinksbox {
+  padding: 10px;
+  width: 165px;
+  height: 6.5px;
+  line-height: 10px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Fondamento;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background: var(--color-fondoprincipal);
+  transition: 1s;
+}
+
+.srollinksbox a {
+  color: var(--color-tipografia2);
+  text-decoration: none;
+}
+
+.srollinksbox:hover {
+   letter-spacing: -1px;
+   transition: 1s;
+   background: var(--color-destacado1trans); 
+}
+
+.sroldescripcion {
+  width: 260px;
+  height: 210px; 
+  padding: 20px;
+  background: var(--color-fondoprincipal);
+  overflow-y: auto;
+  font-family: Fondamento;
+  margin-left: 10px;
+  text-align: justify;
+  color: var(--color-tipografia2); 
+}
+
+.sgranimagen {
+  width: 720px;
+  height: 250px;  
+}
+
+.subforopartefija {
+  width: 1030px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.botondeforos {
+  background: var(--color-destacado1);
+  padding: 15px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  color: var(--color-fondoprincipal);
+  font-size: 32px;
+}
+
+.titulodeforos {
+  background: var(--color-fondoprincipal);
+  padding: 5px;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: Fondamento;
+}
+
+.titulodeforos a {
+  text-decoration: none;
+  color: var(--color-destacado1);
+}
+
+.ultimopostdeforos {
+  background: var(--color-fondoprincipal);
+  padding: 5px;
+  width: 220px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: Fondamento;
+  overflow: hidden;
+}
+
+.ultimopostdeforos a {
+  text-decoration: none;
+  color: var(--color-tipografia2);
+}
+
+.cantidadesenforos {
+  background: var(--color-fondoprincipal);
+  padding: 5px;
+  width: 135px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: var(--color-tipografia2);
+  font-size: 14px;
+  font-family: Fondamento;
+  overflow: hidden;
+}
+
+/*--*/
+
+/*Estadisticas*/
+
+.estadisticasdelforo {
+  width: 1030px;
+  height: 450px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+}
+
+.columna1estadisticas {
+  width: 200px;
+  height: 410px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal); 
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.grupoboxestadistica {
+  padding: 10px;
+  width: 170px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Fondamento;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background: var(--color-grisclaro); 
+  transition: 1s; 
+}
+
+.grupoboxestadistica a {
+  color: var(--color-fondoprincipal);
+  text-decoration: none;
+  transition: 1s;  
+}
+
+a.colordegrupo1:hover {
+  color: var(--color-grupostaff);
+  transition: 0.5s; 
+}
+
+a.colordegrupo2:hover {
+  color: var(--color-grupociudadanos);
+  transition: 0.5s; 
+}
+
+a.colordegrupo3:hover {
+  color: var(--color-grupoaventureros);
+  transition: 0.5s; 
+}
+
+a.colordegrupo4:hover {
+  color: var(--color-grupocomerciantes);
+  transition: 0.5s; 
+}
+
+a.colordegrupo5:hover {
+  color: var(--color-grupobandalos);
+  transition: 0.5s; 
+}
+
+a.colordegrupo6:hover {
+  color: var(--color-grupointelectuales);
+  transition: 0.5s; 
+}
+
+a.colordegrupo7:hover {
+  color: var(--color-grupofugitivos);
+  transition: 0.5s; 
+}
+
+a.colordegrupo8:hover {
+  color: var(--color-gruposeguidoresoscuros);
+  transition: 0.5s; 
+}
+
+.columna2estadisticas {
+  width: 780px;
+  height: 450px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.recuadroestadisticas {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal); 
+  font-size: 16px;
+  text-align: left;
+  font-family: Calibri;
+  color: var(--color-tipografia2);
+  overflow-y: auto;
+}
+
+.creditosdelforoestadisticas {
+  width: 290px;
+  height: 200px; 
+  padding: 20px;
+  margin-left: 10px;
+  background-color: var(--color-fondoprincipal); 
+  overflow-y: auto;
+  font-family: Calibri;
+  font-size: 16px;
+  text-align: justify;
+  color: var(--color-tipografia2); 
+}
+
+.creditosdelforoestadisticas a {
+  text-decoration: none;
+  color: var(--color-tipografia2);  
+}
+
+.cuadropequeinfoestadisticas {
+  width: 100px;
+  height: 160px; 
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-fondoprincipal); 
+  font-family: Fondamento;
+  font-size: 18px;
+  text-align: justify;
+  color: var(--color-tipografia2);   
+}
+
+.cuadropequeinfoestadisticas span {
+  width: 100px;
+  height: 90px;
+  text-align: center;
+}
+
+.imagenestadisticas {
+  width: 330px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-image: url(https://i.servimg.com/u/f21/20/16/10/92/foto_d15.jpg);
+}
+
+/*--*/
+
+/*Botones indice inferior*/
+
+.botonesimportantesindice {
+  width: 1010px;
+  height: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.botonesimportantesindice a {
+  border: 1px solid var(--color-destacado1);
+  width: 245px;
+  font-size: 20px;
+  color: var(--color-destacado1);
+  transition: 1s;  
+}
+
+
+.botonesimportantesindice i {
+  line-height: 40px;
+}
+
+.botonesimportantesindice a:hover {
+  transition: 1s;
+  color: var(--color-destacado1trans);
+}
+
+/*--*/
+
+/*Footer trucho*/
+
+.soyunintentodefooteraro {
+  padding: 20px;
+  text-align: right;
+  background: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);  
+  margin-top: 10px; 
+}
+
+.soyunintentodefooteraro span {
+  color: var(--color-tipografia2);
+}
+
+.soyunintentodefooteraro a {
+  text-decoration: none;
+  color: var(--color-destacado1);
+}
+
+/*--*/
+
+/*Widget flotante panel admin*/
+
+.iconopaneladmin {
+  position: fixed;
+  top: 400px;
+  left: 20px;
+  z-index: 999; 
+  background: var(--color-destacado1);
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+}
+
+.iconopaneladmin a {
+  text-decoration: none;
+  color: var(--color-tipografia2);
+}
+
+/*--*/
+
+/*Pagina de temas*/
+
+.navegacionpathentemasrow {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 70px;
+    line-height: 70px;  
+}
+
+.navegacionpathentemasrow a {
+    color: var(--color-tipografia2);
+    font-family: MorrisRoman;
+    transition: 0.5s;
+}
+
+.navegacionpathentemasrow a:hover {
+  color: var(--color-destacado1);
+  transition: 0.5s;
+}
+
+.titulotemasespeciales {
+  margin: auto;
+  width: 855px;
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+  padding: 20px;
+  border-left: 5px solid var(--color-destacado1);
+  margin-bottom: 10px;
+  font-family: MorrisRoman;
+  font-size: 26px;
+  background: rgba(0,0,0,0.4);
+  color: var(--color-destacado1);
+}
+
+div.forumbg.announcement {
+ margin-bottom: 20px; 
+}
+
+.contenedortemitaslist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  width: 880px;
+  height: 80px;
+  margin: auto;
+  padding: 10px;
+}
+
+.imagentemitaslist {
+  width: 80px;
+  height: 80px;
+}
+
+.nombrepostyultimotemitaslist {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 600px;
+  height: 80px;
+  color: var(--color-tipografia2);
+}
+
+.nombreposttemitaslists {
+  height: 30px;
+  line-height: 50px; 
+  padding: 5px;
+  border-bottom: 1px solid var(--color-destacado1);
+  font-family: Fondamento;
+  text-align: left;
+  font-size: 18px; 
+  transition: 0.5s;
+}
+
+.nombreposttemitaslists:hover {
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.ultimoposttemitaslists {
+  height: 30px;
+  padding: 5px; 
+  text-align: right; 
+  font-family: Fondamento;
+  font-size: 15px;  
+}
+
+.canttemastemitaslists {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border: 1px solid var(--color-destacado1); 
+  padding: 10px; 
+  text-align: center; 
+  line-height: 30px;
+  font-family: Fondamento;
+  font-size: 10px;
+  color: var(--color-tipografia2);
+}
+
+.cantpoststemitaslists {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border: 1px solid var(--color-destacado1); 
+  padding: 10px; 
+  text-align: center; 
+  line-height: 30px;
+  font-family: Fondamento;
+  font-size: 10px;
+  color: var(--color-tipografia2);  
+}
+
+.numeritoespecial {
+  font-size: 30px; 
+  font-weight: bold;
+}
+
+.permisosdelforoentemas {
+  width: 1025px;
+  height: 150px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.permisostitulos {
+  width: 450px;
+  height: 110px;
+  line-height: 110px;
+  background-color: var(--color-destacado1);
+  padding: 20px; 
+  text-align: center; 
+  font-family: MorrisRoman;
+  font-size: 50px;
+  color: var(--color-tipografia2);  
+}
+
+.permisosdelforoentemas p {
+  background-color: var(--color-fondoprincipal);
+  padding: 20px; 
+  text-align: right; 
+  font-family: Fondamento;
+  font-size: 16px;
+  color: var(--color-tipografia2);  
+  width: 480px;
+  height: 70px;
+  margin: 20px;
+}
+
+/*--*/
+
+/*Perfiles de usuario*/
+
+.perfildeusuarios {
+  margin-top: 100px;
+  width: 1050px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filanombreyava {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1010px;
+  height: 300px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+}
+
+.avatardelussperfil {
+  width: 300px;
+  height: 300px;
+}
+
+.avatardelussperfil img {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.nombreyrazaussperfil {
+  width: 1010px;
+  height: 150px;
+  margin-top: 55px;
+  padding: 20px;
+  background-color: var(--color-destacado1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: MorrisRoman;
+  color: var(--color-tipografia2);
+  text-align: right;
+}
+
+.nombredeusuarioperfil {
+  font-size: 50px;
+  border-bottom: 1px solid var(--color-tipografia2);
+  line-height: 70px;  
+}
+
+.razadeusuarioperfil {
+   font-size: 20px;
+   line-height: 40px;
+}
+
+.filacamposcomuneseimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  width: 1010px;
+  height: 450px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png); 
+}
+
+.contenedordecampossimplesperfil {
+  width: 660px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulocampossimplesperfil {
+  width: 660px;
+  line-height: 50px;
+  height: 50px;
+  font-family: MorrisRoman;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  text-align: center; 
+  background: var(--color-grisclaro);
+}
+
+.filadecampossimples {
+  width: 660px;
+  height: 410px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.boxcamposimpleperfil {
+  width: 210px;
+  height: 60px;  
+  padding: 20px;
+  background: var(--color-fondoprincipal);
+  display: flex;
+  flex-direction: column;
+}
+
+.titulocamposimple {
+  line-height: 20px;
+  font-family: MorrisRoman;
+  font-size: 18px;
+  color: var(--color-tipografia2);
+  text-align: center;  
+  border-bottom: 1px solid var(--color-destacado1);
+}
+
+.contenidocamposimple {
+  line-height: 40px;
+  height: 40px;
+  font-family: Fondamento;
+  font-size: 14px;
+  color: var(--color-tipografia2);
+  text-align: center;    
+}
+
+.separadorencolorcampossimples {
+  width: 50px;
+  height: 450px;
+  background: var(--color-grisclaro);
+}
+
+.imagensecundariadelusuario {
+  width: 300px;
+  height: 450px;
+}
+
+.imagensecundariadelusuario img{
+  width: 300px;
+  height: 450px;
+}
+
+.filalinkseinventario {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  width: 1010px;
+  height: 250px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png); 
+}
+
+.separadorcolorpeque {
+  width: 50px;
+  height: 250px;
+  background: var(--color-grisclaro);  
+}
+
+.contenedorcontacto {
+  width: 350px;
+  height: 250px;
+  background: var(--color-fondoprincipal);
+  display: flex;
+  flex-direction: column;
+}
+
+.filaimagenpequeenlinksperfil {
+  width: 330px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.filaimagenpequeenlinksperfil img{
+  width: 330px;
+  height: 90px;
+}
+
+.filalinksperfil {
+  width: 320px;
+  height: 90px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.filalinksperfil img {
+  width: 80px;
+  height: 80px;  
+}
+
+.linkboxperfil {
+  width: 70px;
+  height: 70px; 
+  background: var(--color-fondoprincipal);
+}
+
+.titulolinksperfil {
+  height: 30px;
+  padding: 10px;
+  line-height: 30px;
+  font-family: MorrisRoman;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  background: var(--color-grisclaro); 
+  text-align: center;  
+}
+
+.contenedorinventario {
+  width: 600px;
+  height: 250px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulodelinventarioperfil {
+  height: 30px;
+  padding: 10px;
+  line-height: 30px;
+  font-family: MorrisRoman;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  background: var(--color-grisclaro);
+  text-align: center;  
+}
+
+.contenedoritemsinventarioperfil {  
+  height: 190px;
+  width: 580px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: var(--color-fondoprincipal);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+
+.contenedoritemsinventarioperfil img {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 75px;
+  width: 75px; 
+}
+
+.filainsignias {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  width: 1010px;
+  height: 100px;
+  padding: 20px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png); 
+}
+
+.tituloinsigniasperfiles {
+  height: 80px;
+  width: 100px;
+  padding: 10px;
+  line-height: 80px;
+  font-family: MorrisRoman;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  background: var(--color-grisclaro);
+  text-align: center;
+}
+
+.contenedordeinsigniasperfil {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 860px;
+  height: 60px;
+  padding: 20px;
+  padding-left: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: var(--color-fondoprincipal);
+}
+
+.contenedordeinsigniasperfil img {
+  margin-left: 5px;
+  width: 60px;
+  height: 60px; 
+}
+
+.filaderellenopefil {
+  margin-top: 10px;
+  width: 1050px;
+  height: 25px;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png); 
+}
+
+.filastatuscierraperfil {
+  width: 1010px;
+  height: 10px;
+  padding: 20px; 
+  line-height: 10px;
+  font-family: Fondamento;
+  font-size: 20px;
+  color: var(--color-tipografia2);
+  background: var(--color-grisclaro);
+  text-align: center;
+}
+
+/*--*/
+
+/*Parte inferior no editable de posts*/
+
+.barravigilarestetema {
+  width: 1010px;
+  height: 10px;
+  padding: 20px;
+  line-height: 10px;
+  font-family: Fondamento;
+  font-size: 16px; 
+  background: var(--color-grisclaro);
+  text-align: center;
+}
+
+.barravigilarestetema a {
+  color: var(--color-tipografia2); 
+  text-decoration: none;
+}
+
+.campoderespuestarapidaposts {
+  padding: 20px;
+  background: var(--color-fondoprincipal);
+  margin-top: 10px;
+}
+
+div.campoderespuestarapidaposts div.h3 {
+  display: none;
+}
+  
+.informacioninferiordeposts {
+   width: 1030px;
+   height: 40px;
+   line-height: 40px;
+   padding: 10px;
+   background: var(--color-fondoprincipal);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+
+.pathenposts {
+  height: 30px;
+  padding: 5px;
+  line-height: 30px;
+  margin-left: 10px;
+  width: 660px;
+}
+
+.pathenposts a {
+  color: var(--color-tipografia2);
+  font-family: Fondamento;
+  font-size: 15px;
+  text-decoration: underline var(--color-destacado1);
+}
+
+.paginationinferiorenposts {
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    width: 140px;
+    color: var(--color-tipografia2);
+    font-family: Fondamento;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contengoformsfinaldeposts {
+   background: var(--color-fondoprincipal);
+   padding: 10px;
+   margin-top: 10px;  
+}
+
+.permisosdelforo {
+   background: var(--color-fondoprincipal);
+   margin-top: 10px;
+   margin-bottom: 50px;
+   padding: 20px;
+   font-family: Fondamento;
+   color: var(--color-tipografia2); 
+}
+
+.permisosdelforo a {
+ color: var(--color-destacado1); 
+}
+
+/*--*/
+
+/*--*/
+
+/*Pagina de miembros*/
+
+.paginamiembrosforo {
+ display: flex;
+  flex-direction: column;
+}
+
+.titulopaginamiembros {
+  width: 1025px;
+  height: 100px;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  border-left: solid 5px;
+  margin-bottom: 10px;
+  font-family: MorrisRoman;
+  font-size: 40px;
+  text-align: right;
+  line-height: 100px;
+  color: var(--color-destacado1);
+  margin-top: 10px;
+}
+
+.buscarmiembroordenmiembros {
+  font-family: Fondamento;
+  color: var(--color-tipografia2);
+  background: var(--color-fondoprincipal);
+  width: 1030px;
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#inputboxmemberpage {
+  min-width: 80px;
+  margin-left: 5px;
+  font-family: Fondamento;
+  color: var(--color-tipografia2) !important;
+  font-size: 13px;
+  background: var(--color-destacado1);
+  border: 0px !important;
+}
+
+.contenedormiembros {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 550px;
+    background: var(--color-fondoprincipal);
+}
+
+.fondomiembroscont {
+    width: 300px;
+    height: 440px;
+    background: var(--color-grisclaro);
+    background-image: url(https://i.imgur.com/rScrHwH.png);  
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.titulonombremiembro {
+  font-family: MorrisRoman;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  background: var(--color-destacado1);
+  margin-bottom: 10px;
+}
+
+.titulonombremiembro span {
+  color: var(--color-tipografia2) !important;
+  text-decoration: none; 
+}
+
+.titulonombremiembro a {
+ color: var(--color-tipografia2); 
+}
+
+.avatardemiembrospaginamiembros {
+  width: 300px;
+  height: 300px; 
+  background: var(--color-fondoprincipal);
+}
+
+.avatardemiembrospaginamiembros img{
+  width: 300px;
+  height: 300px; 
+}
+
+.botonesdecontactopaginamiembros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: var(--color-fondoprincipal);
+  height: 80px;
+  margin-top: 10px;
+}
+
+.botonesdecontactopaginamiembros span{
+  padding-top: 15px;
+  background: var(--color-destacado1);
+  height: 65px;
+  width: 140px;
+  text-align: center;
+  font-size: 45px;
+  color: var(--color-tipografia2);
+}
+
+.botonesdecontactopaginamiembros img{
+  height: 80px;
+  width: 80px;
+}
+
+.textonoseencontromiembro {
+  font-family: Fondamento;
+  color: var(--color-tipografia2) !important;
+  font-size: 16px;
+}
+
+.paginationpaginamiembros {
+  background: var(--color-fondoprincipal);
+  padding: 10px;
+  color: var(--color-tipografia2);
+  text-align: right;
+  font-family: Fondamento;
+  font-size: 14px;
+}
+
+/*--*/
+
+/* Paginas de confirmacion */
+
+.contenedordepaginadeconfirmacion {
+    background: var(--color-fondoprincipal);
+    background-image: url(https://i.imgur.com/rScrHwH.png); 
+    min-height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.titulodelapagina {
+    font-size: 40px;
+    font-family: MorrisRoman;
+    color: var(--color-destacado1);
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/*Mensajeria Privada*/
+
+.botonesmensajespriv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: var(--color-fondoprincipal);
+    background-image: url(https://i.imgur.com/rScrHwH.png);
+    width: 1030px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.botonesmpcontenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: var(--color-fondoprincipal);
+    width: 229px;
+    height: 60px;
+    padding: 10px;
+}
+
+.titulobotonmp {
+    width: 155px;
+    height: 60px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-family: Fondamento;
+    font-size: 16px;
+    color: var(--color-destacado1);
+}
+
+.nuevomensajeprivadobotonexclusivo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: var(--color-fondoprincipal);
+    background-image: url(https://i.imgur.com/rScrHwH.png);
+    width: 450px;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.nuevomensajeprivadobotonexclusivo a {
+ text-decoration: none !important; 
+}
+
+a#iconitodenuevomensajemp {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    color: var(--color-destacado1);
+}
+
+a.linkanuevomensajemensajesprivs {
+    width: 360px;
+    height: 60px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: var(--color-destacado1);
+    font-family: fondamento;
+}
+
+#panelsuperiordemensajesprivados {
+  color: var(--color-tipografia2) !important;
+  padding: 15px;
+  font-family: Calibri;
+  height: 20px;
+  line-height: 20px;
+  background: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  font-size: 11px;
+}
+
+.titulodecategoriasdelosmensajes {
+  background: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  color: var(--color-tipografia2) !important;
+  padding: 10px;
+  font-family: Fondamento !important;
+  font-size: 22px !important;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.divdetitulosmensajesprivados {
+  width: 445px;
+}
+
+#mensajeprivadofilaencarpetainbox {
+    color: var(--color-tipografia2) !important;
+    padding: 10px;
+    font-family: Calibri;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-image: url(https://i.imgur.com/rScrHwH.png);
+}
+
+.fondodecontenedormensajesprivados {
+   background: var(--color-fondoprincipal);
+   padding: 5px;
+  margin-bottom: 50px;
+}
+
+p.marcaciondemensajesmp {
+    margin-top: 15px !important;
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid var(--color-destacado1trans);
+}
+
+.paginationentemplatedemensajesprivs {
+    padding: 10px;
+    font-family: Calibri;
+    border-bottom: 1px solid var(--color-destacado1trans);
+}
+
+.botonesdetemplatemensajesprivados {
+    font-size: 14px !important;
+}
+
+.primeralinealeermp {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png); 
+  margin-bottom: 10px;
+}
+
+.titulodelmensajeprivadolectura {
+    margin-left: 20px;
+    line-height: 70px;
+    font-family: MorrisRoman;
+    font-size: 22px;
+    color: var(--color-destacado1);
+}
+
+.contenedordepostsmp {
+  min-height: 500px;
+    width: 1030px;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-fondoprincipal);
+    margin-top: 10px;
+}
+
+.titulopequemps {
+    width: 1030px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.titulopequepoststitumensajesp {
+    width: 940px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 22px;
+    font-family: Fondamento;
+    text-align: right;
+    background: var(--color-grisclaro);
+    background-image: url(https://i.imgur.com/rScrHwH.png);  
+}
+
+.autoryfechapostsmps {
+     width: 1017px;
+    height: 20px;
+    padding: 5px;
+    margin-top: -10px;
+    line-height: 9px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Calibri;
+    color: var(--color-tipografia2);
+    text-align: right; 
+}
+
+.cuerpodelpostmps {
+    width: 1010px;
+    min-height: 500px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: Calibri;
+    color: var(--color-tipografia2);
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.terminopostsmps {
+  background: var(--color-destacado1);
+  margin-top: 10px;
+  width: 1030px;
+  height: 40px;
+}
+
+/*--*/
+
+/*Hojas y zonas RPG*/
+
+.hojarpgmini {
+  width: 270px;
+  height: 436px;
+  background: var(--color-grisclaro);
+  background-image: url(https://i.imgur.com/rScrHwH.png);
+  margin-bottom: 10px;
+}
+
+.hojarpgmini a {
+  width: 240px;
+  height: 20px;
+  padding: 5px;
+  background: var(--color-fondoprincipal);
+  line-height: 20px;
+  font-size: 18px;
+  font-family: Fondamento;
+  color: var(--color-destacado1trans);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.hojarpgmini br {
+ display: none; 
+}
+
+.titulodeminihojarpg {
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    background: var(--color-destacado1);
+    line-height: 20px;
+    font-size: 22px;
+    font-family: Fondamento;
+    color: var(--color-tipografia2);
+    text-align: center;
+}
+
+.contenedordelcamporpg {
+  width: 250px;
+  min-height: 340px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulominihojarpg {
+  width: 240px;
+  height: 20px;
+  padding: 5px;
+  background: var(--color-fondoprincipal);
+  line-height: 20px;
+  font-size: 18px;
+  font-family: Fondamento;
+  color: var(--color-tipografia2);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background-color: var(--color-tipografia2);
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.fondodebarra {
+  height: 30px;
+}
+
+.colorllenadobarravida {
+  background-color: var(--color-llenadobarravida);	
+}
+
+.contenedormininivelrpg {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  color: var(--color-tipografia2);
+  background: var(--color-fondoprincipal);
+  font-weight: bold;
+  line-height: 10px;
+  font-size: 16px;
+}
+
+.alineadorminicamposrpg {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+div.alineadorminicamposrpg div.bar {
+  width: 219px;
+}
+
+.colorllenadobarraexperiencia {
+  background-color: var(--color-llenadobarraexperiencia);	  
+}
+
+.alineador2minicamposrpg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.alineadorestadisticasminirpg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iconosminirpg {
+  width: 15px;
+  height: 10px;
+  padding: 10px;
+  color: var(--color-llenadobarraestadisticas);
+  background: var(--color-fondoprincipal);
+  line-height: 10px;
+  font-size: 16px;  
+}
+
+.titulodeestadisticasminirpg {
+  height: 10px;
+  padding: 10px 10px 10px 0;
+  color: var(--color-llenadobarraestadisticas);
+  background: var(--color-fondoprincipal);
+  line-height: 10px;
+  font-size: 16px;   
+  text-align: left;
+  font-family: Fondamento;
+}
+
+.textodeestadisticasminirpg {
+  width: 100%;
+  height: 10px;
+  padding: 10px 10px 10px 0;
+  color: var(--color-tipografia2);
+  background: var(--color-fondoprincipal);
+  line-height: 10px;
+  font-size: 16px;   
+  text-align: left;
+  font-family: Fondamento;
+}
+
+.textoenlasbarrasrpgchica {  
+  font-family: Fondamento;
+  text-align: center;
+  width: 250px;
+  line-height: 30px;
+  color: var(--color-fondoprincipal);
+  font-weight: bold;  
+}
+
+.textoenlasbarrasrpgchica2 {  
+  font-family: Fondamento;
+  text-align: center;
+  width: 220px;
+  line-height: 30px;
+  color: var(--color-fondoprincipal);
+  font-weight: bold;  
+}
+
+/*-Hoja RPG del perfil-*/
+
+.hojarpggrande {
+  width: 1010px;
+  height: 390px;
+  padding: 20px;
+  background: var(--color-fondoprincipal);
+  background-image: url(https://i.imgur.com/rScrHwH.png);  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.titulohojarpggrande {
+  background: var(--color-destacado1);
+  padding: 10px;
+  height: 50px;
+  line-height: 50px;
+  font-family: MorrisRoman;
+  font-size: 27px;
+  text-align: center;
+  color: var(--color-tipografia2);
+  margin-bottom: 45px;
+}
+
+.filadebarrashojarpggrande {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: grey;
+  width: 1010px;
+  margin-top: 5px;
+}
+
+.titulodebarrahojarpggrande {
+  background: var(--color-fondoprincipal);
+  padding: 10px;
+  height: 30px;
+  width: 150px;
+  font-family: Fondamento;
+  font-size: 22px;
+  text-align: left;
+}
+
+.iconoshojarpggrande {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: var(--color-fondoprincipal);
+  text-align: center;
+  font-size: 20px;   
+}
+
+.vidarpggrande {
+  line-height: 30px !important;
+  color: var(--color-llenadobarravida);
+}
+
+.bar2 {
+  width: 790px;
+  background-color: var(--color-tipografia2);
+  height: 50px;
+}
+
+.textoenlasbarrasrpggrande {
+  font-family: Fondamento;
+  text-align: center;
+  width: 790px;
+  line-height: 50px;
+  color: var(--color-fondoprincipal);
+  font-weight: bold;
+}
+
+.fondodebarra2 {
+  height: 50px;
+}
+
+.experienciarpggrande {
+  line-height: 30px !important;
+  color: var(--color-llenadobarraexperiencia);
+}
+
+.contenedordecamposestadisticoshojarpggrande {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filadebarras2hojarpggrande {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: grey;
+  width: 502.5px;
+  margin-top: 5px;
+}
+
+.estadisticasrpggrande {
+  line-height: 30px !important;
+  color: var(--color-llenadobarraestadisticas);
+}
+
+.textodeestadisticashojagranderpg {
+  width: 266px;
+  height: 30px;
+  padding: 10px;
+  color: var(--color-fondoprincipal);
+  background: var(--color-llenadobarraestadisticas);
+  line-height: 30px;
+  font-size: 18px;   
+  text-align: center;
+  font-family: Fondamento;
+}
+
+.finalizocamposhojarpggrande {
+  width: 502.5px;
+  margin-top: 5px; 
+  background: var(--color-fondoprincipal);
+  margin-left: 5px;
+}
+
+input.mainoption {
+    height: 30px;
+    font-size: 18px;
+    font-family: Calibri;
+    background: var(--color-fondoprincipal);
+    color: var(--color-tipografia2);
+    margin-top: -14px;
+}
+
+/*--*/
